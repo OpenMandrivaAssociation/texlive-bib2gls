@@ -41,17 +41,10 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%doc %{_texmfdistdir}/texmf-dist/source/support/bib2gls
-%{_texmfdistdir}/texmf-dist/scripts/bib2gls
-%doc %{_texmfdistdir}/texmf-dist/doc/support/bib2gls
-%{_texmfdistdir}/texmf-dist
-%{_texmfdistdir}/texmf-dist/doc
-%doc %{_texmfdistdir}/texmf-dist/doc/man
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/convertgls2bib.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/convertgls2bib.1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bib2gls.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bib2gls.1
+%doc %{_texmfdistdir}/source/support/bib2gls
+%{_texmfdistdir}/scripts/bib2gls
+%doc %{_texmfdistdir}/doc/support/bib2gls
+%doc %{_texmfdistdir}/doc/man/man1/*
 
 %post -p %{_sbindir}/texlive.post
 
