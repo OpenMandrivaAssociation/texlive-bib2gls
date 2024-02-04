@@ -1,5 +1,5 @@
 Name:		texlive-bib2gls
-Version:	68534
+Version:	69635
 Release:	1
 Summary:	Command line application to convert .bib files to glossaries-extra.sty resource files
 Group:		Publishing
