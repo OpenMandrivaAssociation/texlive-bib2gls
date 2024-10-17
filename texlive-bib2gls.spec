@@ -3,7 +3,7 @@ Version:	69635
 Release:	1
 Summary:	Command line application to convert .bib files to glossaries-extra.sty resource files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bib2gls
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bib2gls
 License:	gpl3+
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bib2gls.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bib2gls.doc.r%{version}.tar.xz
