@@ -1,5 +1,6 @@
 %global tl_name bib2gls
 %global tl_revision 76845
+%global tl_bin_links bib2gls:%{_texmfdistdir}/scripts/bib2gls/bib2gls.sh convertgls2bib:%{_texmfdistdir}/scripts/bib2gls/convertgls2bib.sh datatool2bib:%{_texmfdistdir}/scripts/bib2gls/datatool2bib.sh
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -17,6 +18,8 @@ BuildSystem:	texlive
 Requires:	texlive(bib2gls.bin)
 Requires:	texlive(glossaries-extra)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 This Java command line application may be used to extract glossary
